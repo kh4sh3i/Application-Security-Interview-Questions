@@ -54,6 +54,7 @@ __10. Do you have any questions for me?__
   * https://www.bedefended.com/papers/cors-security-guide
 * Does SOP mitigate CSRF attacks?
   * https://security.stackexchange.com/questions/157061/how-does-csrf-correlate-with-same-origin-policy
+  * In short SOP only prevents reading data which was served from a different origin. It does not cover cross-domain form submissions which are used to carry out a CSRF attack.
 * Exploiting SSRF attacks
   * https://portswigger.net/web-security/ssrf
   * https://www.hackerone.com/blog-How-To-Server-Side-Request-Forgery-SSRF
