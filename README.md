@@ -44,6 +44,9 @@ __10. Do you have any questions for me?__
   * https://www.cloudflare.com/learning/ssl/how-does-ssl-work/
   * https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/
 * Recommend XXE mitigation for application which requires external entities to be called because of business requirement
+  * Patch or upgrade all XML processors and libraries in use by the application or on the underlying operating system. Use dependency checkers. Update SOAP to SOAP 1.2 or higher.
+  * Disable XML external entity and DTD processing in all XML parsers in the application, as per the OWASP Cheat Sheet 'XXE Prevention'.
+  * Implement positive ("whitelisting") server-side input validation, filtering, or sanitization to prevent hostile data within XML documents, headers, or nodes. 
 * Explain CORS and SOP
   * https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
   * https://portswigger.net/web-security/cors
