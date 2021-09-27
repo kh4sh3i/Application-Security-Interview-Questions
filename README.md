@@ -95,6 +95,7 @@ __10. Do you have any questions for me?__
   * Use a .secrets file ( basically the .env file above but encrypted via serverless secrets plugin
 * How does file compression work?
 * Which method is secure? Compress First and then Encrypt the data or Encrypt First then Compress
+  * Compress and then encrypt is better. Data compression removes redundant character strings in a file. So the compressed file has a more uniform distribution of characters. This also provides shorter plaintext and ciphertext, which reduces the time spent encrypting, decrypting and transmiting the file.
 * You have found a vulnerability a product/infrastructure, how will you investigate if this was not exploited already by an attacker
 * What is SPF, DKIM and DMARC?
   * https://www.smartertools.com/blog/2019/04/09-understanding-spf-dkim-dmarc
