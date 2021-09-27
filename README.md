@@ -63,6 +63,7 @@ __10. Do you have any questions for me?__
   * https://blog.cloudflare.com/understanding-our-cache-and-the-web-cache-deception-attack/
   * http://omergil.blogspot.com/2017/02/web-cache-deception-attack.html
   * https://portswigger.net/research/practical-web-cache-poisoning
+  * Please note that web caches also enable a different type of attack called Web Cache Deception which should not be confused with cache poisoning.
 * What is HTTP request smuggling?
   * http://projects.webappsec.org/w/page/13246928/HTTP%20Request%20Smuggling
   * https://portswigger.net/web-security/request-smuggling
