@@ -87,6 +87,8 @@ __10. Do you have any questions for me?__
   * https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
 * Explain SSL Stripping
   * https://blog.cloudflare.com/performing-preventing-ssl-stripping-a-plain-english-primer/
+  * SSL stripping is a technique that downgrades your connection from secure HTTPS to insecure HTTP.
+  * [sslstrip+](https://github.com/LeonardoNve/sslstrip2) avoid (HSTS) protection mechanism with dns proxy, only solution for preventation is DNSSEC.
 * If you have API calls which need to fetch credentials, what will be the secure way to store secrets and making them available for API calls?
   * https://medium.com/hackernoon/where-do-you-keep-credentials-for-your-lambda-functions-cac746048480
 * How does file compression work?
