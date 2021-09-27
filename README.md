@@ -75,6 +75,9 @@ __10. Do you have any questions for me?__
   * https://portswigger.net/web-security/cross-site-scripting/dom-based
   * https://brutelogic.com.br/blog/dom-based-xss-the-3-sinks/
   * https://www.scip.ch/en/?labs.20171214
+  * Reflected and Stored XSS are server side injection issues while DOM based XSS is a client (browser) side injection issue.
+  * DOM XSS combined with reflected and stored data
+  * CSP does not stop DOM-based XSS (also known as client-side XSS)
 * What will be your testcase for a file upload functionality?
   * https://medium.com/@satboy.fb/art-of-unrestricted-file-upload-exploitation-92ed28796d0
   * https://resources.infosecinstitute.com/file-upload-vulnerabilities/#gref
