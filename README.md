@@ -67,6 +67,8 @@ __10. Do you have any questions for me?__
 * What is HTTP request smuggling?
   * http://projects.webappsec.org/w/page/13246928/HTTP%20Request%20Smuggling
   * https://portswigger.net/web-security/request-smuggling
+  * Burp Suite automatically unpacks chunked encoding to make messages easier to view and edit.
+  * Browsers do not normally use chunked encoding in requests, and it is normally seen only in server responses.
 * Explain DOM XSS. Can DOM XSS be stored? Can CSP header mitigate dom based XSS
   * https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
   * https://html.spec.whatwg.org/multipage/parsing.html
