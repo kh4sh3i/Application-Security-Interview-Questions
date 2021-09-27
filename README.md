@@ -91,6 +91,8 @@ __10. Do you have any questions for me?__
   * [sslstrip+](https://github.com/LeonardoNve/sslstrip2) avoid (HSTS) protection mechanism with dns proxy, only solution for preventation is DNSSEC.
 * If you have API calls which need to fetch credentials, what will be the secure way to store secrets and making them available for API calls?
   * https://medium.com/hackernoon/where-do-you-keep-credentials-for-your-lambda-functions-cac746048480
+  * Use a .env file — which is committed to the repo
+  * Use a .secrets file ( basically the .env file above but encrypted via serverless secrets plugin
 * How does file compression work?
 * Which method is secure? Compress First and then Encrypt the data or Encrypt First then Compress
 * You have found a vulnerability a product/infrastructure, how will you investigate if this was not exploited already by an attacker
