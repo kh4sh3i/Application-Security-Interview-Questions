@@ -78,6 +78,7 @@ __10. Do you have any questions for me?__
   * Reflected and Stored XSS are server side injection issues while DOM based XSS is a client (browser) side injection issue.
   * DOM XSS combined with reflected and stored data
   * CSP does not stop DOM-based XSS (also known as client-side XSS)
+  * CSP can bypss with "script-src-elem" header, you can overwrite existing script-src rules in CSP and enabling you to inject unsafe-inline
 * What will be your testcase for a file upload functionality?
   * https://medium.com/@satboy.fb/art-of-unrestricted-file-upload-exploitation-92ed28796d0
   * https://resources.infosecinstitute.com/file-upload-vulnerabilities/#gref
