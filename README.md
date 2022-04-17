@@ -122,6 +122,9 @@ __10. Do you have any questions for me?__
 * How does ssh authentication work?
   * https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
   * https://gravitational.com/blog/ssh-handshake-explained/
+  * client create public key and send them to the server
+    * server create Key Exchange (secret key) and encrypt with client public key and send
+    * client decrypt message and use this secret key for symetric encryption
 * How to create and implement an SSL certificate?
 * How to verify if a database is encrypted?
 * If you want a script to use credentials from the system, where will you store the credentials?
